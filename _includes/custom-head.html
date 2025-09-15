@@ -1,0 +1,23 @@
+<link rel="icon" href="{{"favicon.png" | relative_url}}">
+
+{% if page.usemathjax %}
+<script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
+<script id="MathJax-script" async src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>
+{% endif %}
+
+{% if page.usetikzjax %}
+<link rel="stylesheet" type="text/css" href="https://tikzjax.com/v1/fonts.css">
+<script defer src="https://tikzjax.com/v1/tikzjax.js"></script>
+{% endif %}
+
+{% if page.usevizjs %}
+<script src="https://cdnjs.cloudflare.com/ajax/libs/viz.js/2.1.2/viz.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/viz.js/2.1.2/full.render.js"></script>
+<script>var viz = new Viz();</script>
+{% endif %}
+
+{% if page.usemermaid %}
+<script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
+<script defer>mermaid.initialize({ startOnLoad: true });</script>
+{% endif %}
+

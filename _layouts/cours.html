@@ -1,0 +1,23 @@
+---
+layout: default
+---
+
+<a href="index">Retour</a><br>
+{% if page.precedent != nil %}
+<a href="cours-{{page.precedent}}">Cours précédent</a><br>
+{% endif %}
+{% if page.suivant != nil %}
+<a href="cours-{{page.suivant}}">Cours suivant</a><br>
+{% endif %}
+<br>
+
+{{ content }}
+
+<br>
+<a href="index">Retour</a><br>
+{% if page.precedent != nil %}
+<a href="cours-{{page.precedent}}">Cours précédent</a><br>
+{% endif %}
+{% if page.suivant != nil %}
+<a href="cours-{{page.suivant}}">Cours suivant</a><br>
+{% endif %}
