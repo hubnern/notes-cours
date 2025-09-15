@@ -28,7 +28,7 @@ baseurl: "/notes-cours" # the subpath of your site, e.g. /blog
 url: "https://hubnern.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 
 # Build settings
-theme: jekyll-theme-minima
+#theme: minima
 #plugins:
 #  - jekyll-feed
 
